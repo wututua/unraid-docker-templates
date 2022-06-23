@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>openfrpc</Name>
+  <Repository>openfrp/frpc</Repository>
+  <Registry>https://hub.docker.com/r/openfrp/frpc/</Registry>
+  <Network>host</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://doc.openfrp.net/</Support>
+  <Project>https://www.openfrp.net/</Project>
+  <Overview>SakuraFrp official docker image | &#x6A31;&#x82B1;&#x5185;&#x7F51;&#x7A7F;&#x900F;&#x7B80;&#x6613;&#x90E8;&#x7F72;&#x955C;&#x50CF;&#xD;
+&#xD;
+https://doc.openfrp.net/#/app/unraid</Overview>
+  <Category>Tools: Network:Other</Category>
+  <WebUI>https://www.openfrp.com/user/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>SakuraFrp official docker image | &#x6A31;&#x82B1;&#x5185;&#x7F51;&#x7A7F;&#x900F;&#x7B80;&#x6613;&#x90E8;&#x7F72;&#x955C;&#x50CF;&#xD;
+&#xD;
+https://doc.openfrp.net/#/app/unraid</Description>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>OPENFRP_TOKEN</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>OPENFRP_TARGET</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Token | &#x8BBF;&#x95EE;&#x5BC6;&#x94A5;" Target="OPENFRP_TOKEN" Default="" Mode="" Description="&#x8BBF;&#x95EE;&#x5BC6;&#x94A5;&#xFF0C;&#x5728;&#x7BA1;&#x7406;&#x9762;&#x677F;&#x70B9;&#x51FB;&#x201C;&#x67E5;&#x770B;&#x8BBF;&#x95EE;&#x5BC6;&#x94A5;&#x201D;&#x53EF;&#x5F97;" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Target | &#x96A7;&#x9053;&#x53C2;&#x6570;" Target="OPENFRP_TARGET" Default="" Mode="" Description="&#x96A7;&#x9053;ID1,&#x96A7;&#x9053;ID2,&#x96A7;&#x9053;ID3,..." Type="Variable" Display="always" Required="true" Mask="false"/>
+</Container>
